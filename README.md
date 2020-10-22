@@ -39,67 +39,67 @@ The main problem that LifTOvers admin faces today is that there is too much admi
     To create a new admin account, you must create a new user and promote it through the preset admin account.<br><br>
     1)<strong> Logged in with given admin credentials (top of this section)</strong><br>
     The admin view will have a dashboard, lifts, volunteers, donors, food banks, edit volunteer, settings, and logout tabs on the left of the screen. Let us go through each option one by one.<br><br>
-    <img src="https://github.com/siwon-park/VolunteerDashboard/tree/master/Media/admin_login.gif" width="300" height="332" />
+    <img src="https://github.com/siwon-park/VolunteerDashboard/blob/master/Media/admin_login.gif" width="300" height="332" />
 
     - Dashboard:
         - This dashboard will display statistics about the current year pickups; no user interaction is needed to view 
         - There are details such as incomplete lift, # volunteers, complete lifts, cancelled lifts - as well as a graph that shows the aggregated statistics by month.
-        ![Alt text](https://github.com/siwon-park/VolunteerDashboard/tree/master/Media/dashboard.png "Dashboard Statistics")
+        ![Alt text](https://github.com/siwon-park/VolunteerDashboard/blob/master/Media/dashboard.png "Dashboard Statistics")
     - Lifts:
         - This displays the list of lift requests that have been made
         - You can see the status of each request and the parties involved in each specific request
         - There’s a button to delete/add requests, as well as exporting the lift history
-        ![Alt text](https://github.com/siwon-park/VolunteerDashboard/tree/master/Media/lifts_management.gif "Dashboard Statistics")
+        ![Alt text](https://github.com/siwon-park/VolunteerDashboard/blob/master/Media/lifts_management.gif "Dashboard Statistics")
     - Volunteers:
       - This page contains an aggregate view of all the volunteers that are registered in the database (includes the admins)
       - The option to delete/add volunteers, as well as exporting volunteer data
-  ![Alt text](https://github.com/siwon-park/VolunteerDashboard/tree/master/Media/volunteer_management.gif "Dashboard Statistics")
+  ![Alt text](https://github.com/siwon-park/VolunteerDashboard/blob/master/Media/volunteer_management.gif "Dashboard Statistics")
     - Donors:
       - This page contains an aggregate view of all the donors that have made a donation using liftovers
       - There is an option to delete donors, as well as exporting donor details
-  ![Alt text](https://github.com/siwon-park/VolunteerDashboard/tree/master/Media/donors_management.gif "Dashboard Statistics")
+  ![Alt text](https://github.com/siwon-park/VolunteerDashboard/blob/master/Media/donors_management.gif "Dashboard Statistics")
     - Food Banks:
       - This page contains an aggregate view of all the food banks that are associated with liftovers.
       - There is an option to delete/add food banks, as well as exporting existing food banks 
-  ![Alt text](https://github.com/siwon-park/VolunteerDashboard/tree/master/Media/foodbank_management.gif "Dashboard Statistics")
+  ![Alt text](https://github.com/siwon-park/VolunteerDashboard/blob/master/Media/foodbank_management.gif "Dashboard Statistics")
     - Edit Volunteer:
       - This page allows admins to change the account details for volunteers (i.e. name, postal code). 
       - Admin can also promote volunteers to admin status in this page
-  ![Alt text](https://github.com/siwon-park/VolunteerDashboard/tree/master/Media/edit_volunteer.gif "Dashboard Statistics")
+  ![Alt text](https://github.com/siwon-park/VolunteerDashboard/blob/master/Media/edit_volunteer.gif "Dashboard Statistics")
     - Settings:
       - This page contains the details of the currently logged user. They can change their account details 
-  ![Alt text](https://github.com/siwon-park/VolunteerDashboard/tree/master/Media/settings.gif "Dashboard Statistics")
+  ![Alt text](https://github.com/siwon-park/VolunteerDashboard/blob/master/Media/settings.gif "Dashboard Statistics")
 
     - Logout:
       - Pressing this button will log you out of the application and will redirect you to the login page.
-      ![Alt text](https://github.com/siwon-park/VolunteerDashboard/tree/master/Media/logout.gif "Dashboard Statistics")
+      ![Alt text](https://github.com/siwon-park/VolunteerDashboard/blob/master/Media/logout.gif "Dashboard Statistics")
 
 * Volunteer workflow: 
 
 When you first enter our application, you will be greeted with a login page. On this page, you may enter the user account listed above or signup for a new account and log in afterwards. <br><br>
-<img src="https://github.com/siwon-park/VolunteerDashboard/tree/master/Media/user_signup.gif" width="270" height="332" />
-<img src="https://github.com/siwon-park/VolunteerDashboard/tree/master/Media/user_login.gif" width="300" height="332" />
+<img src="https://github.com/siwon-park/VolunteerDashboard/blob/master/Media/user_signup.gif" width="270" height="332" />
+<img src="https://github.com/siwon-park/VolunteerDashboard/blob/master/Media/user_login.gif" width="300" height="332" />
 
 After logging in, the user will be able to see the lift requests that need to be delivered. On the sidebar, there are tabs to see lift requests, in-progress lifts, completed lifts, settings, and logout. 
    * Lift requests:
      - This page shows all the requests that have not been accepted by a volunteer. Volunteers can choose a request they want to deliver and click on “deliver.” The accepted lift will be shown in their “in-progress” lifts. 
-   ![Alt text](https://github.com/siwon-park/VolunteerDashboard/tree/master/Media/take_lift.gif "Dashboard Statistics")
+   ![Alt text](https://github.com/siwon-park/VolunteerDashboard/blob/master/Media/take_lift.gif "Dashboard Statistics")
 
    * In-Progress:
      - Users will be able to see details for their upcoming lifts
-   ![Alt text](https://github.com/siwon-park/VolunteerDashboard/tree/master/Media/user_in_progress.png "Dashboard Statistics")
+   ![Alt text](https://github.com/siwon-park/VolunteerDashboard/blob/master/Media/user_in_progress.png "Dashboard Statistics")
 
    * Complete:
      - Users can see their history of completed lifts.
-   ![Alt text](https://github.com/siwon-park/VolunteerDashboard/tree/master/Media/user_completed.png "Dashboard Statistics")
+   ![Alt text](https://github.com/siwon-park/VolunteerDashboard/blob/master/Media/user_completed.png "Dashboard Statistics")
 
    * Settings: 
      - Similar to admin, users can change their availability and account details.
-   ![Alt text](https://github.com/siwon-park/VolunteerDashboard/tree/master/Media/user_settings.gif "Dashboard Statistics")
+   ![Alt text](https://github.com/siwon-park/VolunteerDashboard/blob/master/Media/user_settings.gif "Dashboard Statistics")
 
    * Logout:
      - Similar to admin, users can logout to the login page by pressing the logout button
-   ![Alt text](https://github.com/siwon-park/VolunteerDashboard/tree/master/Media/user_logout.gif "Dashboard Statistics")
+   ![Alt text](https://github.com/siwon-park/VolunteerDashboard/blob/master/Media/user_logout.gif "Dashboard Statistics")
 
 
 
